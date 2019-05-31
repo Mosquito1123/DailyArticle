@@ -25,10 +25,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  flutter_webview_plugin: ^0.3.0+2
+  json_annotation: ^2.0.0
+  dio: ^1.0.13
+  flutter_spinkit: ^3.1.0
+  flutter_swiper: ^1.1.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  json_serializable: ^2.0.1
+  build_runner: ^1.1.2
 
 
 # For information on the generic Dart part of this file, see the
@@ -48,6 +55,13 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - res/images/splash.png
+    - res/images/detailAdd.png
+    - res/images/feedComment.png
+    - res/images/feedPraise.png
+    - res/images/qdaily.png
+    - res/images/toolbarShare.png
+    - res/images/yellowDot.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 
